@@ -1,0 +1,20 @@
+/*
+ * Crude implementation
+ * Makes the same calculations repeatedly
+ * Can we make this better by caching it?
+ * Dynamic programming!
+ */
+
+public class RecursiveLevenshtein {
+	public static int calculateDistance(String str1, String str2) {
+		int distance = 0;
+		if (str1 == null)
+			return str1.length();
+		if (str2 == null)
+			return str2.length();
+		int len1 = str1.length();
+		int len2 = str2.length();
+		// Check if the last chars match
+		if(str1.charAt())
+	}
+}
